@@ -21,6 +21,20 @@
     float: right;
     width: 70%;
   }
+
+  form > input[type="submit"] {
+    width: 80%;
+    margin: auto;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  form > a.botao {
+    width: 80%;
+    margin: auto;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -49,5 +63,17 @@
 
   div#formulario > p {
     font-size: 1.2em;
+  }
+
+  form > input[type="submit"] {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  form > a.botao {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
   }
 }
