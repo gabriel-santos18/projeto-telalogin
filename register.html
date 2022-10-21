@@ -17,12 +17,11 @@
       <section id="login">
         <div id="imagem"></div>
         <div id="formulario">
-          <h1>Login</h1>
+          <h1>Registrar</h1>
           <p>
-            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
-            poder fazer as configurações no seu ambiente.
+            Seja bem-vindo(a), preencha os campos para se registrar no nosso site.
           </p>
-          <form action="" method="post" autocomplete="on">
+          <form action="login.php" method="post" autocomplete="on">
             <div class="campo">
               <i class="material-icons">person</i>
               <input
@@ -32,6 +31,7 @@
                 placeholder="Seu e-mail"
                 autocomplete="email"
                 required
+                maxlength="30"
               />
               <label for="ilogin">Login</label>
             </div>
@@ -49,9 +49,9 @@
               />
               <label for="isenha">Senha</label>
             </div>
-            <input type="submit" value="Entrar" name="btn-login" />
-            <a href="register.html" class="botao">
-              Registre-se <i class="material-icons">mail</i>
+            <input type="submit" value="Entrar" />
+            <a href="index.html" class="botao">
+              Logar <i class="material-icons">mail</i>
             </a>
           </form>
         </div>
